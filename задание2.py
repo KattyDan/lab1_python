@@ -5,9 +5,11 @@ su=[] #cyммa
 for i in range(1, n+1):
 	p+=[i]
 print(p)
+#Создание списка квадратов чтсле
 for i in range(1,n+1):
 	k+=[i**2]
 print(k)
+# Вычисление суммы числе от 1 до n
 for i in range (1,n+1):
 	su+=[i]
 print(sum(su))
