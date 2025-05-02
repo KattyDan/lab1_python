@@ -1,9 +1,9 @@
 import random
-m=[]
-for i in range(10):
-	 m+=[random. randint (1,100)]
-print(m) #список
-print(max(m)) # максимальное
-print (min (m) ) #минимальное
-print(sum(m)) #сумма
-print(sorted(m)) #по порядку возрастания
+m=[] #создание пустого спика m
+for i in range(10): #цикл на 10 повторений
+	 m+=[random. randint (1,100)] #генерация случайного чтсла от 1 до 100
+print(m) #вывод всего списка
+print(max(m)) # максимальное число в списке
+print (min (m) ) #минимальное число в списке
+print(sum(m)) #сумма всех чисел 
+print(sorted(m)) #сортировка по порядку возврастания
